@@ -1,0 +1,16 @@
+fastapi==0.68.0
+numpy==1.22.3
+pandas==1.4.2
+starlette==0.14.2
+networkx==2.8.8
+matplotlib==3.6.2
+#uvicorn==0.19.0
+#websockets==10.4
+# vagy standarad uvicorn
+uvicorn[standard]==0.19.0
+
+tpot==0.11.7
+scikit-learn==1.0.2
+celery[redis]==5.3.1
+python-multipart==0.0.5
+statsmodels==0.13.2
