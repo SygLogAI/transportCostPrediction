@@ -11,19 +11,19 @@ Ez a dokumentáció bemutatja a telepítés folyamatát, és hogyan lehet elérn
 
 ### Függőségek
 ```bash
-cd projetc-root/server
+cd project-root/server
 pip install -r requirements.txt
 ```
 
 ### Indítás
 #### App
 ```bash
-cd projetc-root/server/app
+cd project-root/server/app
 DATA_DIR=../store BROKER_URL=redis://localhost:6379/0 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 #### Celery
 ```bash
-cd projetc-root/server/app
+cd project-root/server/app
 BROKER_URL=redis://localhost:6379/0 celery -A celery_app.worker worker -l info
 ```
 
