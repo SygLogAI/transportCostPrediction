@@ -38,7 +38,7 @@ BROKER_URL=redis://localhost:6379/0 celery -A celery_app.worker worker -l info
 
 ### 1. Fuvardíj előrejelzés
 **Endpoint:** `POST /api/models/transport_cost/predict`  
-**Leírás:** TODO
+
 
 #### Kérés:
 ```http
@@ -76,7 +76,7 @@ Authorization: -
 ### 2. Tréning
 **Endpoint:** `POST /api/models/transport_cost/fit`
 
-**Leírás:** TODO
+
 
 #### Kérés:
 ```http
@@ -119,7 +119,6 @@ Authorization: -
 ### 3. Státusz
 **Endpoint:** `GET /api/models/transport_cost/status`
 
-**Leírás:** Állapot visszaadása.
 
 #### Kérés:
 ```http
@@ -134,16 +133,13 @@ Authorization: -
 ```
 
 ## Hibakódok
-#### TODO: A hibakódokat pontosítani kell
+
 | Kód  | Leírás |
 |-------|-----------|
 | 400   | Hibás kérés |
-| 401   | Nincs hitelesítés |
-| 403   | Nincs jogosultság |
 | 404   | Nem található |
 | 422   | Feldolgozhatatlan entitás |
 | 500   | Szerverhiba |
 
-## Kapcsolat
-#### TODO: Ha szükséges itt megadható
+
 
