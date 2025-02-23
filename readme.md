@@ -1,4 +1,4 @@
-# Microservice API Dokumentáció
+# Fuvardíj előrejelzés
 
 # Bevezetés
 A közzétett kód lehetővé teszi a tonna/kilométer alapú fuvardíjak előrejelzését, elkapva az éven belüli szezonalitást és távolságok közötti nem lineáris kapcsolatot. Például a mezőgazdasági termékek szállításhoz kapcsolódó aratási időszakban lévő emelkedő keresletet és rövidebb viszonylatokhoz tartozó magasabb kilométer árat.
