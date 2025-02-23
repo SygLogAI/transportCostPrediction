@@ -1,7 +1,13 @@
 # Microservice API Dokumentáció
 
 # Bevezetés
-Ez a dokumentáció bemutatja a telepítés folyamatát, és hogyan lehet elérni a microservice API-ját, milyen végpontok állnak rendelkezésre, valamint a kérések és válaszok formátumát.
+A közzétett kód lehetővé teszi a tonna/kilométer alapú fuvardíjak előrejelzését, elkapva az éven belüli szezonalitást és távolságok közötti nem lineáris kapcsolatot. Például a mezőgazdasági termékek szállításhoz kapcsolódó aratási időszakban lévő emelkedő keresletet és rövidebb viszonylatokhoz tartozó magasabb kilométer árat.
+
+A tréninget a lehető legtöbb  adattal érdemes végezni, az év lehető legtöbb hetére legyen adat, valamint minél több eltérő távolságú viszonylat legyen a tesztadatokban.
+
+Az előrejelzett fuvardíjak felhasználhatóak logisztikai gráfok alkotására, és a legideálisabb szállítási időpontok és viszonylatok modellezésére.
+
+A dokumentáció bemutatja a telepítés folyamatát, és hogyan lehet elérni a microservice API-ját, milyen végpontok állnak rendelkezésre, valamint a kérések és válaszok formátumát.
 
 # Előfeltételek
 - python3
